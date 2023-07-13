@@ -15,33 +15,33 @@
     padding: 0px;
 }
 
-html, body {
-    font-family: var(--fonte1);
+body {
+    font-family: var(--fonte3);
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: lightgray;
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
+    padding: 50px;
 }
 
 header > h1 {
-    padding-top: 50px;
-    font-variant: small-caps;
     font-family: var(--fonte2);
     font-size: 10vw;
+    font-variant: small-caps;
 }
 
 header > p {
-    padding-bottom: 50px;
+    font-family: var(--fonte1);
 }
 
 a {
     color: white;
     text-decoration: none;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 a:hover {
@@ -49,12 +49,8 @@ a:hover {
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 2em;
-    padding-left: 30px;
-    font-family: var(--fonte3);
-    font-size: 3.5vw;
+    font-size: 4vw;
+    padding: 110px 30px;
 }
 
 section > p {
@@ -63,38 +59,35 @@ section > p {
 
 .normal {
     background-color: white;
-    color: black;
 }
 
 .imagem {
-    background-color: rgb(51, 51, 51);
-    color: white;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
     background-size: cover;
+    background-position: right center;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
 }
 
 .imagem > p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.432);
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
 }
 
-#img01 {
-    background-image: url(../imagens/background001.jpg);
-    background-position: right center;
+#flor {
+    background-image: url(imagens/background001.jpg);
 }
 
-#img02 {
-    background-image: url(../imagens/background002.jpg);
-    background-position: right center;
+#livro {
+    background-image: url(imagens/background002.jpg);
 }
 
 footer {
+    font-family: var(--fonte1);
     background-color: black;
     color: white;
     text-align: center;
     padding: 10px;
 }
-
